@@ -15,7 +15,7 @@
     padding:30px;
     border-radius:15px;
     box-shadow:0 10px 30px rgba(0,0,0,.1);
-    height:100%;
+    height:45%;
     transition:.3s;
 }
 .contact-card:hover{
@@ -31,6 +31,10 @@
     background:#0d6efd;
     color:#fff;
     margin-right:10px;
+} 
+
+.social-link{
+    color:#fff;
 }
 </style>
 </head>
@@ -120,16 +124,10 @@ Let's discuss your next printing project
 <div class="row g-4">
 
 <!-- Contact Form -->
-
 <div class="col-lg-8">
-
 <div class="card shadow border-0">
-
 <div class="card-body p-4">
-
-<h3 class="mb-4">
-Send Us A Message
-</h3>
+<h3 class="mb-4">Send Us A Message</h3>
 
 <form action="send_message.php" method="POST">
 
@@ -139,10 +137,7 @@ Send Us A Message
 
 <label>Full Name</label>
 
-<input type="text"
-class="form-control"
-name="fullname"
-required>
+<input type="text" class="form-control" name="fullname" required>
 
 </div>
 
@@ -150,10 +145,7 @@ required>
 
 <label>Email Address</label>
 
-<input type="email"
-class="form-control"
-name="email"
-required>
+<input type="email" class="form-control" name="email" required>
 
 </div>
 
@@ -163,22 +155,14 @@ required>
 
 <label>Subject</label>
 
-<input type="text"
-class="form-control"
-name="subject"
-required>
+<input type="text"class="form-control"name="subject"required>
 
 </div>
 
 <div class="mb-3">
-
 <label>Message</label>
 
-<textarea
-name="message"
-rows="6"
-class="form-control"
-required></textarea>
+<textarea name="message" rows="6" class="form-control" required></textarea>
 
 </div>
 
@@ -207,17 +191,17 @@ required></textarea>
 
 <p>
 <i class="fas fa-map-marker-alt text-primary"></i>
- Monrovia, Liberia
+ Tequah Road, Behind Star Motel, Bushrod Island Monrovia, Liberia
 </p>
 
 <p>
 <i class="fas fa-phone text-success"></i>
- +231 XXX XXX XXX
+ +231 88622 5499 | +231 771502727
 </p>
 
 <p>
-<i class="fas fa-envelope text-danger"></i>
- info@tecdesign.com
+<i class="fas fa-envelope text-danger"></i>  
+ tecdesign@gmail.com
 </p>
 
 </div>
@@ -234,56 +218,35 @@ required></textarea>
 
 </div>
 
-<div class="contact-card">
 
-<h4>Follow Us</h4>
 
-<hr>
+</div>
 
-<div class="social-links">
+</div>
 
-<a href="#">
+</div>
+
+</section>
+
+<div class="container-fluid social-link">
+<!-- social media  -->
+<div class="container text-center my-5">
+<a href="#" class="btn btn-primary btn-lg mx-2">
 <i class="fab fa-facebook-f"></i>
 </a>
-
-<a href="#">
+<a href="#" class="btn btn-outline-danger btn-lg mx-2">
 <i class="fab fa-instagram"></i>
 </a>
-
-<a href="#">
-<i class="fab fa-whatsapp"></i>
+<a href="#" class="btn btn-dark btn-lg mx-2">
+<i class="fab fa-tiktok"></i>
 </a>
-
-<a href="#">
-<i class="fab fa-linkedin-in"></i>
+<a href="#" class="btn btn-danger btn-lg mx-2">
+<i class="fab fa-youtube"></i>
 </a>
-
 </div>
 
 </div>
 
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- Google Map -->
-
-<section>
-
-<iframe
-src="https://www.google.com/maps/embed?pb="
-width="100%"
-height="450"
-style="border:0;"
-allowfullscreen=""
-loading="lazy">
-</iframe>
-
-</section>
 
 <!-- WhatsApp CTA -->
 
